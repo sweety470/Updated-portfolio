@@ -66,14 +66,14 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <Button
+            {/* <Button
               onClick={scrollToProjects}
               variant="hero"
               size="lg"
               className="min-w-[180px]"
             >
               View Projects
-            </Button>
+            </Button> */}
             <Button
               onClick={scrollToContact}
               variant="outline-hero"
